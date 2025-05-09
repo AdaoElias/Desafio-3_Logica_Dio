@@ -28,9 +28,9 @@ Ao final deve se exibir uma mensagem:
 ex: O mago atacou usando magia
     guerreiro atacou usando espada
 
-como ficou o código:)
+## Como ficou o código:)
 
-onst readline = require('readline');
+const readline = require('readline');
 
 // Criação da Classe herói para iniciar a aventura
 class Heroi {
@@ -113,4 +113,12 @@ async function main() {
 // Tratamento de erros
 main().catch(err => console.error('Erro:', err));
 
+## Tela com a execução do programa...
 
+![](https://github.com/AdaoElias/Desafio-3_Logica_Dio/blob/main/Erro.png)
+
+1. Coloquei o nome errado pEDRO, para deixa-lo corrigir.
+2. Inseri um nome como se fosse idade, ele não permitiu.
+3. Colocei a idade com numeração errada 16.8, ele vai pegar apenas o numero inteiro, ignorando o restante.
+4. Coloquei um tipo que não estava na lista ele não aceitou.
+5. formatei a resposta para sair toda em maiuscula, independente de como tenha sido escrita.
